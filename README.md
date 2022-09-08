@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Sp-art-ify
+
+### Grace Go, Phyllis Wang, Reyna Wuh, Sophia Zhuang
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
