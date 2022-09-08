@@ -1,0 +1,114 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+  margin: 0;
+  background-color: #F9F8EB;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+.btn {
+  background: #74B49B;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: "center";
+  justify-content: "center";
+  padding: 2% 6%;
+  margin: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.lrgtxt {
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 200;
+}
+
+.medtxt {
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+}
+
+.name {
+  margin: 10px;
+  margin-top: 15px;
+  vertical-align: auto;
+  color: #5C8D89;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.art {
+  display: block;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  max-height: 900px;
+}
+
+.btn2 {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  width: 400px;
+  background-color: rgb(92, 180, 143);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.btn3 {
+  border: none;
+  background-color: rgb(92, 180, 143);
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  padding: 12px 24px;
+  border-radius: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .btn2 {
+    margin-bottom: 10px;
+  }
+
+  .art {
+    width: 95%;
+  }
+
+  .btn3 {
+    margin-left: 30%;
+  }
+}
